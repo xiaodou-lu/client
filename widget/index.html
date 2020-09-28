@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>输入序列号</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="./script/light7/light7.min.css" />
+		<link rel="stylesheet" href="./script/light7/index.css" />
+		<script type='text/javascript' src="./script/jquery-2.2.1.min.js"></script>
+		<script type='text/javascript' src='./script/light7/light7.min.js' charset='utf-8'></script>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		function isIos() {
+			var userAgent = navigator.userAgent;
+			if(userAgent.indexOf('iPhone') > -1 || userAgent.indexOf('iPad') > -1 || userAgent.indexOf('Mac') > -1){
+				return true;
+			}
+			return false;
+		}
+	
+		window.apiready = function(){
+			if(1) {
+				window.location.href = 'https:///addons/we7_wmall/template/vue/index.html?menu=#/pages/home/index?i=1';
+				return;
+			}
+			$.init();
+		};
+	</script>
+
+</html>

@@ -1,0 +1,53 @@
+{modules:[{
+	name:'ajpush',
+	class:'com.open.apicloud.jpush.JPush'
+},
+{
+	name:'ajpusheas',
+	class:'com.open.apicloud.jpush.AppDelegate'
+}
+,{
+	name:'aliPayPlus',
+	class:'com.apicloud.alipayplus.UzAliPayPlus'
+}
+,{
+		    name:'aMapLBS',
+		    class:'com.apicloud.uzamaplbs.UzAMapLBS'
+}
+,{
+		    name:'FNScanner',
+		    class:'com.uzmap.pkg.uzmodules.uzFNScanner.UzFNScanner'
+}
+,{
+   name:'gpsListener',
+   class:'com.apicloud.isgps.GpsInfo'
+}
+,{
+    name:'mam',
+    class:'com.uzmap.pkg.uzmodules.uzmam.UzMAM'
+}
+,{
+		    name:'netAudio',
+		    class:'com.uzmap.pkg.uzmodules.uzNetAudio.UzNetAudio'
+}
+,{
+			name:'QQPlus',
+		    class:'com.apicloud.qqplus.UzQQPlus'
+}
+,{
+    name:'webBrowser',
+    class:'com.uzmap.pkg.uzmodules.browser.BrowserModule'
+},
+{
+    name:'egPreLoad',
+    class:'com.uzmap.pkg.uzmodules.browser.ModulePreLoad'
+}
+,{
+		    name:'wx',
+		    class:'com.uzmap.pkg.uzmodules.uzWx.UzWx'
+}
+,{
+		    name:'wxPay',
+		    class:'com.uzmap.pkg.uzmodules.uzWxPay.UzWxPay'
+}
+]}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="A6155203757396" security="true" version="0.0.1">
+    <name>哟享外卖</name>
+    <description/>
+    <author email="" href="http://www.apicloud.com">迅众科技</author>
+    <content src="index.html"/>
+    <preference name="windowBackground" value=""/>
+    <preference name="autoLaunch" value="true"/>
+    <preference name="autoUpdate" value="true"/>
+    <preference name="smartUpdate" value="true"/>
+    <preference name="backgroundMode" value=""/>
+    <preference name="urlScheme" value="comheidouwaimaicustomer"/>
+    <preference name="querySchemes" value="baidumap,comgooglemaps,iosamap"/>
+    <preference name="pageBounce" value="false"/>
+    <preference name="hScrollBarEnabled" value="false"/>
+    <preference name="vScrollBarEnabled" value="false"/>
+    <preference name="fullScreen" value="false"/>
+    <preference name="iOS7StatusBarAppearance" value="false"/>
+    <preference name="appBackground" value="#FFF"/>
+    <permission name="contact"/>
+    <permission name="call"/>
+    <permission name="location"/>
+    <permission name="camera"/>
+    <preference name="userAgent" value="GLALAWAIMAI"/>
+    <permission name="location"/>
+    <permission name="internet"/>
+    <access origin="*"/>
+    <!-- wx：urlScheme 微信开放平台获取的appid; apiKey 微信开放平台获取的 appid; apiSecret: 微信开放平台获取的 secret-->
+    <feature name="wx">
+        <param name="urlScheme" value="wxa3dddb2c7db62701"/>
+        <param name="apiKey" value="wxa3dddb2c7db62701"/>
+        <param name="apiSecret" value="a4352674b967623fbb22a5568b326e98"/>
+    </feature>
+    <!-- wxPay：urlScheme 微信开放平台获取的appid; apiKey 微信开放平台获取的 appid; apiSecret: 微信开放平台获取的 secret-->
+    <feature name="wxPay">
+        <param name="urlScheme" value="wxa3dddb2c7db62701"/>
+        <param name="apiKey" value="wxa3dddb2c7db62701"/>
+        <param name="apiSecret" value="a4352674b967623fbb22a5568b326e98"/>
+    </feature>
+    <!-- aliPayPlus：urlScheme 由字符串'AliPayPlus'和本应用的 widgetId 拼接而成 -->
+    <feature name="aliPayPlus">
+        <param name="urlScheme" value="AliPayPlusA6029399407155"/>
+    </feature>
+    <!-- QQPlus：urlScheme 由字符串'tencent'与腾讯开放平台获取的APP ID拼接而成; apiKey 腾讯开放平台获取的 APP ID -->
+    <feature name="QQPlus">
+        <param name="urlScheme" value="QQ0612e925"/>
+        <param name="apiKey" value="101902629"/>
+    </feature>
+    <feature name="ajpush">
+        <param name="app_key" value="ca5c772c87b29fae11abd64198be3ac0"/>
+        <param name="channel" value="developer-default"/>
+    </feature>
+    <feature name="aMapLBS">
+        <param name="android_api_key" value="01b7debc8585dfffa0f8c17c70b92e48"/>
+        <param name="ios_api_key" value="d229a90be4829d139a52a0ae51be041b"/>
+    </feature>
+    <preference name="debug" value="false"/>
+</widget>
